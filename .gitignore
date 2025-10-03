@@ -1,0 +1,41 @@
+# Environment & Credentials
+.env
+*.env
+.env.local
+.env.*.local
+Environment Configuration/.env
+Environment Configuration/*.json
+
+# Google Cloud Service Account Keys
+Service Account Key/*.json
+Service Account Key/*.pem
+*-service-account*.json
+*-credentials*.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Screenshots (may contain personal data)
+*.png
+*.jpg
+*.jpeg
+!PowerBI Files/dashboard_background.jpg
+
+# Database exports
+Data Folders/database_export/*.csv
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.log

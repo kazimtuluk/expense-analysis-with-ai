@@ -26,6 +26,12 @@ Service Account Key/*.json
 Environment Configuration/.env
 Environment Configuration/*.env
 
+# Screenshots (may contain personal data)
+*.png
+!PowerBI\ Files/dashboard_background.jpg
+
+# Database exports
+Data Folders/database_export/*.csv
 # Service Account Keys
 Service Account Key/*.json
 Service Account Key/*.pem
