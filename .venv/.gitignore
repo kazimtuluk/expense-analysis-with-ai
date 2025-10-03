@@ -1,0 +1,177 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# This file is for use in a project that uses a virtual environment created by venv.
+# It is recommended to include this file in your version control system to avoid committing
+# files that are specific to the virtual environment.
+
+# ReceiptAI - Git Ignore File
+
+# ============================================================================
+# Environment & Credentials
+# ============================================================================
+.env
+*.env
+.env.local
+.env.*.local
+Environment Configuration/.env
+Environment Configuration/*.json
+Service Account Key/*.json
+
+# Google Cloud Service Account Keys
+*-service-account*.json
+*-credentials*.json
+*.pem
+*.key
+
+# Sensitive Configuration
+Environment Configuration/.env
+Environment Configuration/*.env
+
+# Service Account Keys
+Service Account Key/*.json
+Service Account Key/*.pem
+
+# Screenshot files (may contain personal data)
+*.png
+*.jpg
+*.jpeg
+
+# Database exports
+Data Folders/database_export/*.csv
+# ============================================================================
+# Python
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Python distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================================================================
+# Data Files (Sensitive Information)
+# ============================================================================
+# Receipt images (may contain personal information)
+Data Folders/new_receipts/*.jpg
+Data Folders/new_receipts/*.jpeg
+Data Folders/new_receipts/*.png
+Data Folders/processed_receipts/**/*.jpg
+Data Folders/processed_receipts/**/*.jpeg
+Data Folders/processed_receipts/**/*.png
+
+# Keep folder structure but ignore content
+!Data Folders/new_receipts/.gitkeep
+!Data Folders/processed_receipts/.gitkeep
+
+# Database exports
+Data Folders/database_export/*.csv
+Data Folders/database_export/*.xlsx
+Data Folders/backup/*
+
+# Processing results
+processing_results.json
+*.log
+
+# ============================================================================
+# Database
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================================
+# Power BI
+# ============================================================================
+# Temporary Power BI files
+PowerBI Files/*.pbix.tmp
+PowerBI Files/*.pbit.tmp
+
+# ============================================================================
+# Operating System
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# Testing & Coverage
+# ============================================================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ============================================================================
+# Documentation
+# ============================================================================
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# ============================================================================
+# Temporary Files
+# ============================================================================
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# Cloud Storage Cache
+# ============================================================================
+.gcloud/
+.gsutil/
+
+# ============================================================================
+# Misc
+# ============================================================================
+.cache/
+scratch/
+test_data/

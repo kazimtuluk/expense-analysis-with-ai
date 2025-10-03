@@ -1,0 +1,22 @@
+
+    TARGET STORE #4521
+    123 MAIN STREET
+    SAN FRANCISCO, CA 94102
+    (415) 555-0123
+    
+    Date: 08/19/2024  Time: 17:32:29
+    
+    ELECTRONICS DEPT
+    BIG 42 INCH LED TV           533.89
+    BLUETOOTH HEADPHONES          29.99
+    
+    HEALTH & BEAUTY
+    DAVE SHAMPOO 16OZ             12.98
+    DAVE CONDITIONER               8.99
+    
+    SUBTOTAL                     585.85
+    CA TAX 9.75%                  57.11
+    TOTAL                        642.96
+    
+    VISA CARD ****1234           642.96
+    

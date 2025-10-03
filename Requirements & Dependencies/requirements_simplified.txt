@@ -1,0 +1,23 @@
+# ReceiptAI - Simplified Requirements
+# Minimal dependencies for basic functionality
+
+# AI & Machine Learning
+google-generativeai  # Gemini AI for receipt analysis
+google-cloud-vision  # OCR text extraction
+
+# Cloud & Database
+google-cloud-storage  # Receipt image storage
+psycopg2-binary  # PostgreSQL connector
+
+# Data Processing
+pandas  # Data manipulation
+numpy  # Numerical operations
+python-dateutil  # Enhanced date parsing
+
+# Image Processing
+Pillow  # Image handling
+
+# Utilities
+python-dotenv  # Environment variables
+tabulate  # Table preview formatting
+requests  # HTTP requests
